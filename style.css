@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:900|Press+Start+2P');
+html, body {
+  margin: 0;
+  padding: 0;
+}
+red {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: #55baf2;
+}
+red * {
+  -moz-user-select: none;
+}
+#hero {
+  color: #f76f8e;
+}
