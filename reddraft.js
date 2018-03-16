@@ -67,7 +67,7 @@ function draft(e) {
   }
   this.move = function (id, x, y, z) {
     var i = get(id);
-    if (x.toString() && y.toString()) {
+    if (!isNaN(x) && !isNaN(y)) {
       i.style.top = y+"px";
       i.style.left = x+"px";
       if (z) {
